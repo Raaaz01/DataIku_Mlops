@@ -76,7 +76,20 @@
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
     "integrations": {
-      "integrations": []
+      "integrations": [
+        {
+          "active": true,
+          "hook": {
+            "type": "github",
+            "configuration": {
+              "useProxy": true,
+              "username": "Raaaz01",
+              "accessToken": "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",
+              "repository": "git@github.com:Raaaz01/DataIku_Mlops.git"
+            }
+          }
+        }
+      ]
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
